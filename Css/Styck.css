@@ -1,0 +1,17 @@
+.Styck1{
+  position: fixed;
+  z-index: 1000;
+  top:0;
+  width: 100; background-color: #640204;
+  padding:0 30px;
+  box-sizing: border-box;
+}
+.Styck2{
+  position: fixed;
+  z-index: 1000;
+  top:68px;
+  width: 100;
+  background-color: #640204;
+  padding:0 30px;
+  box-sizing: border-box;
+}

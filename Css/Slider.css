@@ -1,0 +1,55 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ul, ol{
+  list-style: none;
+}
+.sliderImg{
+  width: 100%;
+  position: relative;
+}
+.Slider ul, .Slider li{
+  width: 100%;
+  background-color: #000000;
+}
+.Slider img{
+  width: 20%;
+  display: block;
+  margin: auto;
+}
+.Aleft, .Aright{
+  position: absolute;
+  top:170px;
+  height: 100%
+  display:flex;
+  align-items: center;
+  font-size: 50px;
+  color: #FFFFFF;
+  cursor: pointer;
+  transition: .3s;
+}
+.Aleft:hover, .Aright:hover{
+  color: #830000;
+}
+.Aleft{
+  left: 20px;
+}
+.Aright{
+  right: 20px;
+}
+.Number{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+.Number li{
+  padding: 5px;
+  cursor: pointer;
+  color: #2B2B2B;
+  transition: .3s;
+}

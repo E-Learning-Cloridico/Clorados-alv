@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Contactanos!</title>
+</head>
+ 
+<body>
+  <form id="gform" method="POST" class="pure-form pure-form-stacked" data-email="example@email.net"
+  action="https://script.google.com/macros/s/AKfycbwv_9ixefkkrLUqe1FRle0-iyQzEiQv5MWeH7vf/exec">
+
+    <fieldset class="pure-group">
+      <label for="name">Nombre: </label>
+      <input id="Nombre" name="nombre" placeholder="¿Como te llamas?" />
+    </fieldset>
+
+    <fieldset class="pure-group">
+      <label for="email"><em>Tu</em> Direccion Email:</label>
+      <input id="email" name="email" type="email" value=""
+      required placeholder="tu.nombre@email.com"/>
+      <span id="email-invalid" style="display:none">
+        Tiene que ser un </span>
+    </fieldset>
+
+    <fieldset class="pure-group">
+      <label for="Asunto">Asunto: </label>
+      <input id="asunto" name="asunto" placeholder="Asunto..." />
+    </fieldset>
+
+    <fieldset class="pure-group">
+      <label for="mensaje">Mensaje: </label>
+      <textarea id="mensaje" name="mensaje" rows="¿Que le interesa decir?"
+      placeholder="¿Que le interesa decir?"></textarea>
+    </fieldset>
+
+    <button class="button-success pure-button button-xlarge">
+      <i class="fa fa-paper-plane"></i>&nbsp;Send</button>
+
+  </form>
+
+  <div style="display:none;" id="mensaje_agradecimiento">
+    <h2><em>Gracias</em> por contactarnos!
+    Esperamos seguir en contacto pronto!</h2>
+  </div>
+
+  <script data-cfasync="false" type="text/javascript"
+  src="../Js/form-submission-handler.js"></script>
+
+
+</body>
+</html>
